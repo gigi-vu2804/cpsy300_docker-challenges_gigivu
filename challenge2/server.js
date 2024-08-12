@@ -6,7 +6,6 @@ const app = express();
 const fsMemoryStats = "/proc/meminfo";
 
 const pid = process.pid;
-const env = process.env;
 
 // Sample data
 const books = [
